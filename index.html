@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>First Game</title>
+</head>
+<body>
+    <h1>
+        Simple game 
+      </h1>
+    <div id="container">
+        <div class="content">
+          Let's play the game click the button
+        </div>
+        
+        <div class="wrapper__btn">
+            <button class="main-button" data-name = 'rock' id = 'rock'>rock</button>
+            <button class="main-button" data-name = 'paper' id = 'paper'>paper</button>
+            <button class="main-button" data-name = 'scissors' id = 'scissors'>scissors</button>
+        </div>
+        <div class="wrapper__score">
+          <h3></h3>
+          <p></p>
+        </div>
+        <button class="reset_btn" onclick="window.location.reload()">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
